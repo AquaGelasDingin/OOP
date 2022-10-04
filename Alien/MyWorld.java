@@ -29,13 +29,9 @@ public class MyWorld extends World
         Hero hero = new Hero();
         addObject(hero,48,158);
         hero.setLocation(39,194);
-        
-        Hero hero2 = new Hero();
-        addObject(hero2,50,130);
-        hero2.setLocation(39,271);
-        
-        Hero hero3 = new Hero();
-        addObject(hero3,70,130);
-        hero3.setLocation(39,121);
+
+        Enemy enemy = new Enemy();
+        addObject(enemy,537,205);
+
     }
 }
